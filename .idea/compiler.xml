@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-Boot-Config" />
+        <module name="Spring-Boot-JdbcTemplate" />
         <module name="Spring-Boot-MyBatis" />
+        <module name="Spring-Boot-MyBatis-MultiDataSource" />
         <module name="Start-Spring-Boot" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Spring-Boot-Config" target="1.8" />
-      <module name="Spring-Boot-MyBatis" target="1.8" />
-      <module name="Start-Spring-Boot" target="1.8" />
+      <module name="Spring-Boot-Config" target="1.7" />
+      <module name="Spring-Boot-JdbcTemplate" target="1.7" />
+      <module name="Spring-Boot-MyBatis" target="1.7" />
+      <module name="Spring-Boot-MyBatis-MultiDataSource" target="1.7" />
+      <module name="Start-Spring-Boot" target="1.7" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Start-Spring-Boot" options="" />
-    </option>
   </component>
 </project>
